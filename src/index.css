@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #064e3b;
+  --color-secondary: #d97706;
+  --color-accent: #10b981;
+  --color-surface: #ffffff;
+  --color-background: #f8fafc;
+
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Custom Utilities if needed, but v4 uses CSS variables mostly */
+body {
+  background-color: var(--color-background);
+  color: #111827;
+  font-family: var(--font-sans);
+}
